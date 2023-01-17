@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Image from "next/image";
 import { Playfair_Display } from "@next/font/google";
@@ -58,15 +59,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1 className={playfair.className}>Ambient Accounting</h1>
-        <Image
-          src="/ambient-accounting.jpg"
-          alt="Ambient Accounting Logo"
-          // className={styles.vercelLogo}
-          width={500}
-          height={500}
-          priority
-        />
-        <h2 className={playfair.className}>Accounting as Assurance.</h2>
+        <div className="concrete">
+          <img src="/ambient-accounting.jpg" alt="Ambient Accounting Logo" />
+        </div>
+        <h2 className={playfair.className}>Accounting as Assurance</h2>
       </main>
       <footer className={playfair.className}>
         <a href="mailto:info@ambientaccounting.ca">info@ambientaccounting.ca</a>
