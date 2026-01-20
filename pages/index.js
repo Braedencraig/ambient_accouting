@@ -16,24 +16,24 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
-          content="ambient accounting,ambient bookkeeping,bookkeeping,accounting,accountant,taxes"
+          content="ambient accounting inc,ambient bookkeeping,bookkeeping,accounting,accountant,taxes"
         />
         <meta
           name="description"
-          content="Ambient Accouting based in Toronto, ON. We provide bookkeeping and accounting services for small businesses."
+          content="Ambient Accouting Inc. based in Toronto, ON. We provide bookkeeping and accounting services for small businesses."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:title" content="Ambient Accouting" />
+        <meta property="og:title" content="Ambient Accouting Inc." />
         <meta
           property="og:description"
-          content="Ambient Accouting based in Toronto, ON. We provide bookkeeping and accounting services for small businesses."
+          content="Ambient Accouting Inc. based in Toronto, ON. We provide bookkeeping and accounting services for small businesses."
         />
         <meta
           property="og:image"
           content="https://ambientaccounting.ca/ambient-accounting.jpg"
         />
         <link rel="canonical" href="https://ambientaccounting.ca/" />
-        <title> Ambient Accouting </title>
+        <title> Ambient Accouting Inc. </title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
@@ -60,7 +60,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={playfair.className}>Ambient Accounting</h1>
         <div className="concrete">
-          <img src="/ambient-accounting.jpg" alt="Ambient Accounting Logo" />
+          <img src="/ambient-accounting.jpg" alt="Ambient Accounting Inc. Logo" />
         </div>
         <h2 className={playfair.className}>Accounting as Assurance</h2>
       </main>
